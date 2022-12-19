@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "concurrently": "^7.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  },
+  "name": "insta_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakash1049/insta-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aakash1049/insta-backend/issues"
+  },
+  "homepage": "https://github.com/Aakash1049/insta-backend#readme",
+  "description": ""
+}
