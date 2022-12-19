@@ -119,7 +119,7 @@ const Card = ({ post }) => {
 
                     {showcomment?<input className="comments" type="text" placeholder="add a comment here and hit enter" />:""}
                     </form>
-                    {(showcomment && allComments.length!=0)?allComments.map(record=>{
+                    {(showcomment && allComments.length!==0)?allComments.map(record=>{
                         return(
                             <>
                             <h6 style={{textAlign:"start", marginLeft:"15px"}}>
