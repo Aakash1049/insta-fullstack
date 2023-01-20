@@ -1,37 +1,42 @@
-.signin{
-    border: 2px solid grey;
-    border-radius: 5px;
-    padding: 1rem;
-    width: fit-content;
+.signin {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
     text-align: center;
-    margin: 5rem auto 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
-.signin input{
-    margin: 10px 15px;
+
+.signin__title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
 }
-.signin button:active {
-    position: relative;
-    top: 1px;
-}
-.toast-error{
-    color: white;
-    position: absolute;
-    top: 30px !important;
-    right: 20px !important;
-    left: auto !important;
-    border: 1px solid red;
-    background-color:red;
-    padding: 2px 5px;
+
+.signin__input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
     border-radius: 4px;
 }
-.toast-success{
+
+.signin__button {
+    width: 100%;
+    background-color: #4CAF50;
     color: white;
-    position: absolute;
-    top: 30px !important;
-    right: 20px !important;
-    left: auto !important;
-    background-color: green;
-    border: 1px solid green;
-    padding: 2px 5px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.signin__link {
+    margin-top: 1rem;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 1rem;
 }
